@@ -1,0 +1,20 @@
+---
+title: "getstart"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{getstart}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(testsite)
+print(ssuumm(1,2))
+```
