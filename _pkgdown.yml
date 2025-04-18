@@ -1,0 +1,11 @@
+url: https://rightsz.github.io/testsite/
+template:
+  bootstrap: 5
+  light-switch: true
+  theme: gruvbox-light
+  theme-dark: gruvbox-dark
+navbar:
+  structure:
+    left:  [intro, reference, articles, tutorials, news]
+    right: [search, github, lightswitch]
+
